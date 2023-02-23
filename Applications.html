@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="website style.css">
+
+
+
+
+		<script>
+			function formSubmitted() {
+				alert("Thank you " + document.getElementById("Fname").value + " " + document.getElementById("Sname").value + " for your application we will contact you at " + document.getElementById("email").value + " soon");
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<div id="Nav">
+			<nav>
+				<a href="Website.html"><button id="potat">About us</button></a> 
+				<a href="Applications.html"><button id="potat">Applications</button></a> 
+				<a href="Worker bio's.html"><button id="potat">Worker bio</button></a> 
+				<a href="ext couses & requirements.html"><button id="potat">Requirements and external courses</button></a>
+			</nav>
+		</div>
+		<div>
+		<h1>Applications</h1>
+			<form onsubmit="formSubmitted()">
+				<label>First name</label><br>
+				<input type="text" id="Fname" required><br>
+				<label>surname</label><br>
+				<input type="text" id="Sname" required><br><br>
+
+				<label>role select</label><br>
+				<select id="role-select" required>
+					<option disabled selected></option>
+					<option>web developer</option>
+					<option>web develepor apprentice</option>
+					<option>senior developer</option>
+					<option>HR</option>
+				</select><br><br>
+
+				<label>CV Input</label><br>
+				<input type="file"><br><br>
+
+				<label>phone number</label><br>
+				<input type="tel" id="phone" name="phone" pattern="[0-9]{5} [0-9]{6}"><br>
+				<label>Email</label><br>
+				<input type="email" id="email" required><br><br>
+
+				<label>portfolio or URL links</label><br>
+				<textarea id="portfolio"></textarea><br><br>
+
+				<input type=submit id="submit"><br>
+				
+
+
+			</form>
+		</div>
+	</body>
+	
+</html>

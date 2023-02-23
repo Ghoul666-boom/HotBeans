@@ -1,0 +1,84 @@
+body {
+	height:100%;
+	background-color:#fc8917;
+	border:15px;
+	border-style:solid;
+	border-color:#850505;
+	Box-sizing:border-box;
+	margin:0px;
+	padding:3px;
+}
+#potat{
+	width:23%;
+	box-sizing: border-box;
+}
+
+html{
+	height:100%;
+	
+}
+
+img {
+	max-height:200px;
+	max-width:225px;
+	margin:0px;
+	padding:0px;
+	
+	
+}
+
+textarea {
+	min-width: 350px;
+	min-height:200px;
+	max-width:650px;
+	max-height:350px;
+}
+
+#Nav{
+	border:3px;
+	border-style:solid;
+	background-color:cyan;
+	height:100px;
+	width:90%;
+	box-sizing: border-box
+}
+
+#aboutUs{
+	border:3px;
+	border-style:solid;
+	width:65%;
+	height:200px;
+	box-sizing:border-box;
+	margin-left:15%;
+	margin-right:15%;
+	background-color:#D3D3D3;
+}
+.grid-container {
+	display:grid;
+	grid-template-columns: auto auto auto ;
+	gap:5px;
+	border:2px;
+	margin:10px;
+	margin-left:13%;
+	margin-right:13%;
+	text-align:center;
+	width:70%
+}
+	
+.item1 {
+	border:2px;
+	border-style:solid;
+	background-color:#D3D3D3;
+}
+
+.item3 {
+	border:2px;
+	border-style:solid;
+	background-color:#D3D3D3;
+}
+
+#submit {
+	background-color: chartreuse;
+
+
+}
