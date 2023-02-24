@@ -89,3 +89,27 @@ textarea {
 
 
 }
+
+.grid-container2 {
+	display:grid;
+	grid-template-columns: auto auto auto auto ;
+	gap:2px;
+	border-style:solid;
+	border:2px;
+	margin:3px;
+	margin-left:13%;
+	margin-right:13%;
+	text-align:center;
+	width:74%;
+
+}
+
+#pic{
+	border-style:solid;
+	border:2px;
+}
+
+#bio{
+	border-style:solid;
+	border:2px;
+}
